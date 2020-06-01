@@ -65,9 +65,6 @@
                     "configurations": {
                         "production": {
                             "browserTarget": "angular-viewer:build:production"
-                        },
-                        "local": {
-                            "browserTarget": "angular-viewer:build:local"
                         }
                     }
                 },
