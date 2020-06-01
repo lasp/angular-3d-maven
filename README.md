@@ -21,7 +21,7 @@ Run `npm start` for a local server. Navigate to `http://localhost:4200/`.
 
 There are two environment files, one used for running a local server and one for a production server. 
 
-**IMPORTANT:** The developer is responsible for obtaining one of the four pieces of the environment file on their own. This is the Cesium Ion Token. Instructions for obtaining one can be found below.
+**IMPORTANT:** The developer is responsible for obtaining one of the three pieces of the environment file on their own. This is the Cesium Ion Token. Instructions for obtaining one can be found below.
 
 ### Obtaining a Cesium Ion Token
 
