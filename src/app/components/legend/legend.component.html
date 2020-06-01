@@ -1,0 +1,22 @@
+<table>
+    <tbody>
+        <tr *ngFor="let item of legendValues | keyvalue">
+            <th>{{item.key}}</th>
+            <td>{{item.value}}</td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <mat-checkbox (change)="solarChange( $event.checked )" [checked]="solarChecked" color="primary">
+                    Sub-solar Point <img class="icon-images" src="./assets/images/Sun.png" height="25"/>
+                </mat-checkbox>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <mat-checkbox (change)="trackChange( $event.checked )"[checked]="trackChecked" color="primary">
+                    Ground tracking <img class="icon-images" src="./assets/images/Track.png" height="25"/>
+                </mat-checkbox>
+            </th>
+        </tr>
+    </tbody>
+</table>

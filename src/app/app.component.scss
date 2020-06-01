@@ -1,0 +1,45 @@
+.mat-drawer-side {
+    border: none;
+}
+
+.scichart-button {
+    position: relative;
+    display: block;
+    float: right;
+    z-index: 11;
+    right: 50px;
+    top: 46px;
+}
+
+.panel-button {
+    position: relative;
+    display: block;
+    float: left;
+    z-index: 2;
+    left: 10px;
+    top: 46px;
+}
+
+.panel-button--mobile {
+    position: relative;
+    display: block;
+    float: right;
+    z-index: 11;
+    top: 10px;
+    right: 10px;
+}
+
+.cesium-split-area {
+    position: relative;
+}
+
+.loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+    animation: colors 5.6s ease-in-out infinite;
+}
