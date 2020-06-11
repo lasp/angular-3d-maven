@@ -17,9 +17,14 @@ Angular-3D-Maven is an implementation of the base LASP 3D application for the MA
 
 ## Local Development
 
+Run `npm install` to install package dependencies (requires node/npm to be installed globally on your machine).
+
 Run `npm start` for a local server. Navigate to `http://localhost:4200/`.
 
-There are two environment files, one used for running a local server and one for a production server. 
+There are two environment files:
+
+* `src/environments/environment.ts`: used for running a local server
+* `src/environment/environment.prod.ts`: used for running a production server
 
 **IMPORTANT:** The developer is responsible for obtaining one of the three pieces of the environment file on their own. This is the Cesium Ion Token. Instructions for obtaining one can be found below.
 
@@ -35,6 +40,11 @@ There are two environment files, one used for running a local server and one for
  
 
 The LATIS_BASE constant in `environments/environment.ts` will determine which latis catalog you will hit with the local development branch to get all the needed metadata.
+
+## LaTiS
+
+Angular-3D-Maven uses a [LaTiS](https://github.com/latis-data/latis) API endpoint to serve data. Additional documentation for this specific
+LaTiS instance can be found at https://lasp.colorado.edu/maven/sdc/public/latis/dap/.
 
 ## Code scaffolding
 
